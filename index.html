@@ -8,6 +8,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
     <link rel="manifest" href="imagens/site.webmanifest">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <title>Conversor de texto</title>
 </head>
 <body>
@@ -23,10 +26,10 @@
             <textarea name="texto" class="texto" cols="30" rows="10" placeholder="Digite ou cole seu texto aqui..."></textarea>
 
             <div id="botoes" class="botes">
-                <button class="maius" >MAIÚSCULAS</button>
-                <button class="minus" >minúsculas</button>
-                <button class="capitalizacao" >Primeira maiúscula</button> <!--primeira letra do texto-->
-                <button class="plcp" >Primeira Maiúscula</button>  <!--primeira letra de cada palavra-->
+                <button class="maius" type="button" class="badge text-bg-info">MAIÚSCULAS</button>
+                <button class="minus" type="button">minúsculas</button>
+                <button class="capitalizacao" type="button">Primeira maiúscula</button> <!--primeira letra do texto-->
+                <button class="plcp" type="button">Primeira Maiúscula</button>  <!--primeira letra de cada palavra-->
             </div>
 
             <article class="modificado"></article>
@@ -36,5 +39,7 @@
     </main>
 
     <script src="main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

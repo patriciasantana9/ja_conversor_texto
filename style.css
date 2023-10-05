@@ -43,7 +43,7 @@ button.copiar {
    width: 150px;
 }
 
-@media (min-width: 481px) and (max-width: 1200px) {
+@media (min-width: 534px) and (max-width: 1200px) {
    main {
       margin: 24px auto;
       width: 90%;
